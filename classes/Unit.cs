@@ -20,7 +20,7 @@ public class Unit
      {
         Initiative = 0xFF; //If initiative is over 40, it will be discarded and treated as 0 instead.
         HP = 0xFFFF; //Set HP to the max value by default, obviously this will be changed. No unit should have 65535 health... right Ethan?
-        Name = "Unnamed Unit";
+        Name = "Unit";
         DecayStacks = 0x0;
         HasFlourish = false;
         ChargeCounters = 0x0;
